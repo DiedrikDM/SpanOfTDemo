@@ -169,6 +169,7 @@ namespace SpanOfT
 
 
 This gave me following timings in Debug mode - with Debugger attached:
+
 |Method|Run 1 (ms)|Run 2 (ms)|Run 3 (ms)|Run 4 (ms)|Run 5 (ms)|Run 6 (ms)|Run 7 (ms)|Run 8 (ms)|Run 9 (ms)|Run 10 (ms)|Average (ms)|
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 |Split|3762|3260|3302|3366|355|3301|3330|3587|3417|3311|3421,1|
@@ -184,6 +185,7 @@ I also tested it without Debugger attached and in Release mode, these gave me th
 |Slice|941,1|898,7|234,8|
 
 The amount of objects that are Garbage Collected after every loop gave an interesting number as well:
+
 |Method|Average number of objects GC'd|
 |---|---:|
 |Split|1170|
